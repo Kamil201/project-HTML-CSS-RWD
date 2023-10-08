@@ -24,21 +24,21 @@ label::after {
 label::after {
 	transform: translateY(25px);
 }
-header{
-    padding:1rem;
-    width:100%;
-    background-color:rgb(44, 44, 44)
+header {
+	padding: 1rem;
+	width: 100%;
+	background-color: rgb(44, 44, 44);
 }
 
-.nav__menu{
-    display:flex;
-    justify-content: space-between;
+.nav__menu {
+	display: flex;
+	justify-content: space-between;
 }
 
 .nav__list,
-.nav__btn{
-    display:none;
+.nav__btn {
+	display: none;
 }
-.nav__link{
-    text-decoration: none;
+.nav__link {
+	text-decoration: none;
 }
