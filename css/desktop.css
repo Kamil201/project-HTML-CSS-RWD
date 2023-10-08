@@ -1,0 +1,31 @@
+header {
+	background-image: url("/images/banner/banner.png");
+
+}
+
+label {
+	display: none;
+}
+
+.nav__menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.nav__list:has(.nav__item) {
+	list-style-type: none;
+}
+.nav__link {
+	color: rgb(220, 238, 252);
+}
+
+.nav__btn{
+    display:block;
+}
