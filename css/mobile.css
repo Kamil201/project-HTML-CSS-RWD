@@ -1,0 +1,44 @@
+label {
+	place-self: center;
+	width: 50px;
+	height: 35px;
+	border: 0;
+	border-top: 5px solid hsl(0, 0%, 100%);
+	border-bottom: 3px;
+	background-color: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+label::before,
+label::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-top: 5px solid hsl(0, 0%, 100%);
+	transform: translateY(10px);
+}
+
+label::after {
+	transform: translateY(25px);
+}
+header{
+    padding:1rem;
+    width:100%;
+    background-color:rgb(44, 44, 44)
+}
+
+.nav__menu{
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav__list,
+.nav__btn{
+    display:none;
+}
+.nav__link{
+    text-decoration: none;
+}
