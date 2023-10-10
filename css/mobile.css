@@ -47,6 +47,13 @@ header {
     background-image: url('../images/banner/banner.png');
 }
 
+.app__heading{
+	color: rgb(228, 250, 254);
+}
+
+.app__request{
+	color:rgb(219, 241, 252);
+}
 .app__btn{
 	border:none;
 	background-color: rgb(55, 235, 237);
