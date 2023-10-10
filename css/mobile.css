@@ -30,7 +30,7 @@ header {
 }
 
 .nav__menu {
-    background-color: rgb(44, 44, 44);
+	background-color: rgb(44, 44, 44);
 	display: flex;
 	justify-content: space-between;
 }
@@ -45,4 +45,15 @@ header {
 
 .app__content{
     background-image: url('../images/banner/banner.png');
+}
+
+.app__btn{
+	border:none;
+	background-color: rgb(55, 235, 237);
+	color:rgb(255, 255, 255);
+	padding:0.5rem 2rem;
+	border-radius:.3rem;
+	margin:1rem;
+	cursor:pointer;
+	letter-spacing: 1px;;
 }
