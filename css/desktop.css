@@ -33,3 +33,9 @@ label {
 	cursor:pointer;
 	border:none;
 }
+
+.app__container{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
