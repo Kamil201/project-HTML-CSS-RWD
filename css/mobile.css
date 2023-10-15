@@ -43,24 +43,52 @@ header {
 	text-decoration: none;
 }
 
-.app__container{
-    background-image: url('../images/banner/banner.png');
+.app__container {
+	background-image: url("../images/banner/banner.png");
 }
 
-.app__heading{
+.app__heading {
 	color: rgb(228, 250, 254);
 }
 
-.app__request{
-	color:rgb(219, 241, 252);
+.app__request {
+	color: rgb(219, 241, 252);
 }
-.app__btn{
-	border:none;
+.app__btn {
+	border: none;
 	background-color: rgb(55, 235, 237);
-	color:rgb(255, 255, 255);
-	padding:0.5rem 2rem;
-	border-radius:.3rem;
-	margin:1rem;
-	cursor:pointer;
-	letter-spacing: 1px;;
+	color: rgb(255, 255, 255);
+	padding: 0.5rem 2rem;
+	border-radius: 0.3rem;
+	margin: 1rem;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+
+h2 {
+	margin: 20px;
+	text-align: center;
+	font-weight: 200;
+}
+.applab__content {
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.applab__item {
+	padding: 1rem;
+	border-radius: 1rem;
+}
+.applab__item--first {
+	background-color: rgb(77, 169, 253);
+}
+.applab__item--second {
+	background-color: rgb(253, 154, 93);
+}
+
+.applab__item--thrid {
+	background-color: rgb(55, 239, 141);
 }
