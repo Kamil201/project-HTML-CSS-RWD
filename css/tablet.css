@@ -1,0 +1,14 @@
+.app__container{
+    display:flex;
+}
+
+.app__content{
+    align-self: flex-start;
+    margin-top:4rem;
+    padding:1rem
+}
+
+.applab__content{
+    display:flex;
+    flex-direction: row;
+}
