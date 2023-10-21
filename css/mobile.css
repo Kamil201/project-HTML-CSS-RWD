@@ -120,12 +120,75 @@ h2 {
 	background-image: url("../images/banner/testmonial.png");
 	background-size: cover;
 	background-position: center;
-	background-color: blue;
 }
 .hero__heading {
 	text-align: center;
 }
 .hero__heading,
 .hero__text {
+	padding: 1rem;
 	color: rgb(243, 249, 255);
+}
+
+.unlock__heading {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 200;
+	margin-top: 2.5rem;
+}
+
+.unlock__text {
+	padding: 2rem;
+}
+
+.card__heading{
+	justify-content: space-between;
+	display:flex;
+	padding:1.3rem;
+}
+.card__heading--basic{
+	background-color:rgb(233, 244, 254);
+}
+.card__offer,
+.card__price{
+	font-weight: bold;
+}
+.card__price{
+	color:rgb(16, 133, 245);
+}
+.card__list{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	list-style-type: none;
+}
+
+.card__item{
+	margin-top:1rem;
+}
+
+.card__btn{
+	background-color: transparent;
+	border-color:rgb(40, 147, 241);
+	outline:none;
+	cursor:pointer;
+	border-radius:.5rem;
+	padding:.5rem 2.5rem;
+	margin-top:1rem;
+	color:rgb(131, 191, 255)
+}
+
+.card__heading--team{
+	background-color:rgb(254, 244, 238);
+}
+.card__heading--business{
+	background-color:rgb(232, 252, 241);
+}
+
+.card__price--team{
+	color:rgb(253, 180, 102);
+}
+.card__price--business{
+	color:rgb(38, 213, 104);
 }
