@@ -27,10 +27,10 @@ label::after {
 header {
 	padding: 1rem;
 	width: 100%;
+	background-color: rgb(44, 44, 44);
 }
 
 .nav__menu {
-	background-color: rgb(44, 44, 44);
 	display: flex;
 	justify-content: space-between;
 }
