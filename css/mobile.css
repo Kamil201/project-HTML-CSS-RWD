@@ -175,7 +175,7 @@ h2 {
 	cursor:pointer;
 	border-radius:.5rem;
 	padding:.5rem 2.5rem;
-	margin-top:1rem;
+	margin:1rem;
 	color:rgb(131, 191, 255)
 }
 
@@ -191,4 +191,24 @@ h2 {
 }
 .card__price--business{
 	color:rgb(38, 213, 104);
+}
+
+.productivity{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: rgb(93, 178, 255);
+}
+
+.productivity__heading{
+	margin-top: 2rem;
+	padding:2rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+	color:rgb(252, 253, 255);
+}
+
+.productivity__logos{
+	display:flex;
+	gap:.3rem;
 }
