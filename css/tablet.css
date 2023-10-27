@@ -12,3 +12,15 @@
     display:flex;
     flex-direction: row;
 }
+
+.card{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+} 
+
+.AppLab{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+}
