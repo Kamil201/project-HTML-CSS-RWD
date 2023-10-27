@@ -141,74 +141,113 @@ h2 {
 	padding: 2rem;
 }
 
-.card__heading{
+.card__heading {
 	justify-content: space-between;
-	display:flex;
-	padding:1.3rem;
+	display: flex;
+	padding: 1.3rem;
 }
-.card__heading--basic{
-	background-color:rgb(233, 244, 254);
+.card__heading--basic {
+	background-color: rgb(233, 244, 254);
 }
 .card__offer,
-.card__price{
+.card__price {
 	font-weight: bold;
 }
-.card__price{
-	color:rgb(16, 133, 245);
+.card__price {
+	color: rgb(16, 133, 245);
 }
-.card__list{
-	display:flex;
+.card__list {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	list-style-type: none;
 }
 
-.card__item{
-	margin-top:1rem;
+.card__item {
+	margin-top: 1rem;
 }
 
-.card__btn{
+.card__btn {
 	background-color: transparent;
-	border-color:rgb(40, 147, 241);
-	outline:none;
-	cursor:pointer;
-	border-radius:.5rem;
-	padding:.5rem 2.5rem;
-	margin:1rem;
-	color:rgb(131, 191, 255)
+	border-color: rgb(40, 147, 241);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	padding: 0.5rem 2.5rem;
+	margin: 1rem;
+	color: rgb(131, 191, 255);
 }
 
-.card__heading--team{
-	background-color:rgb(254, 244, 238);
+.card__heading--team {
+	background-color: rgb(254, 244, 238);
 }
-.card__heading--business{
-	background-color:rgb(232, 252, 241);
-}
-
-.card__price--team{
-	color:rgb(253, 180, 102);
-}
-.card__price--business{
-	color:rgb(38, 213, 104);
+.card__heading--business {
+	background-color: rgb(232, 252, 241);
 }
 
-.productivity{
-	display:flex;
+.card__price--team {
+	color: rgb(253, 180, 102);
+}
+.card__price--business {
+	color: rgb(38, 213, 104);
+}
+
+.productivity {
+	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	background-color: rgb(93, 178, 255);
 }
 
-.productivity__heading{
+.productivity__heading {
 	margin-top: 2rem;
-	padding:2rem;
+	padding: 2rem;
 	font-size: 1.5rem;
 	font-weight: 300;
-	color:rgb(252, 253, 255);
+	color: rgb(252, 253, 255);
 }
 
-.productivity__logos{
-	display:flex;
-	gap:.3rem;
+.productivity__logos {
+	display: flex;
+	gap: 0.3rem;
+}
+
+.AppLab {
+	background-color: rgb(31, 31, 31);
+}
+
+.AppLab__heading {
+	color: rgb(254, 254, 254);
+	font-size: 1.2rem;
+}
+.AppLab__heading,
+.AppLab__text {
+	padding: 1rem;
+}
+.AppLab__text,
+.AppLAb__item {
+	color: rgb(101, 101, 101);
+}
+
+.bx {
+	margin-left: 1rem;
+	padding: 0.5rem;
+	background-color: rgb(86, 86, 86);
+	color: rgb(199, 199, 199);
+	font-size: 1.5rem;
+	border-radius: 50%;
+}
+.AppLAb__item {
+	margin-top: 1rem;
+	list-style-type: none;
+}
+
+.footer__container {
+	background-color: rgb(0, 0, 0);
+	color: rgb(86, 86, 86);
+	padding: 1rem;
+}
+.footer__copyrights {
+	text-align: center;
 }
