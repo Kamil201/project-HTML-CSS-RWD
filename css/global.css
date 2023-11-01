@@ -23,3 +23,21 @@ p, h1, h2, h3, h4, h5, h6 {
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.hero{
+  position:relative;
+
+}
+
+.hero::before{
+  content:'';
+  background-color:rgb(109, 185, 254);
+  position:absolute;
+  inset:0;
+  opacity:.8;
+}
+
+.hero__heading,
+.hero__text{
+  color:rgb(246, 250, 254);
+}
