@@ -24,7 +24,7 @@ label::after {
 label::after {
 	transform: translateY(25px);
 }
-header {
+.nav{
 	padding: 1rem;
 	width: 100%;
 	background-color: rgb(44, 44, 44);
@@ -45,6 +45,7 @@ header {
 
 .app__container {
 	background-image: url("../images/banner/banner.png");
+	background-position: bottom right;
 }
 
 .app__heading {
