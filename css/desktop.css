@@ -1,4 +1,4 @@
-header {
+.nav {
 	background-image: url("/images/banner/banner.png");
 }
 
@@ -40,6 +40,10 @@ label {
 	justify-content: center;
 }
 
+.hero{
+	min-height: 300px;
+	height:100%;
+}
 
 .AppLab{
     display: grid;

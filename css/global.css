@@ -24,6 +24,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+li{
+  list-style-type: none;
+}
+
 .hero{
   position:relative;
 
@@ -34,7 +38,7 @@ body{
   background-color:rgb(109, 185, 254);
   position:absolute;
   inset:0;
-  opacity:.8;
+  opacity:.3;
 }
 
 .hero__heading,
