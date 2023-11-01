@@ -1,5 +1,6 @@
 .app__container{
     display:flex;
+    background-position: left bottom;
 }
 
 .app__content{
