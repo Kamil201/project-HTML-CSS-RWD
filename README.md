@@ -1,56 +1,42 @@
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
 
-&nbsp;
+#  Newsletter-sign-up-form-with-success-message.
+My challenge was to build out this newsletter form and get it looking as close to the design as possible from https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv. I tested my form validation skills, form submission and of course DOM manipulation.  
 
-
-
-# HTML & CSS: Responsywność (RWD)
-
-Czas zakodować stronę, która ma przygotowane 3 widoki dla różnych punktów granicznych (ang. breakpoints):
-
-- mobile
-- tablet
-- desktop.
-
-## Od czego zacząć?
-
-Przeczytaj dokładnie treść, którą zamieszczam poniżej. Następnie zapoznaj się ze zrzutami ekranu prezentującymi poszczególne widoki – znajdziesz je w katalogu `./assets`.
-
-Na każdym widoku zaznacz sobie, które elementy to oddzielne sekcje strony. Zwróć uwagę, jak się one zmieniają podczas przechodzenia z jednego widoku do drugiego. To ułatwi Ci zaplanowanie układu.
-
-Zacznij od **widoku na telefon**. Możesz użyć [PerfectPixela](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=pl) – dodatku do przeglądarki Chrome – aby ułatwić sobie kodowanie. Pamiętaj, że nie warto odzwierciedlać projektu 1:1 co do piksela. Masz zaznajomić się z technikami RWD i przy okazji utrwalić wiedzę z HTML-a i CSS-a. Widok ma być podobny do pierwowzoru: zachować koncepcję i estetykę oraz dopasowanie do najważniejszych rozdzielczości. Nie ma być identyczny, a w zasadzie nie może być, ponieważ na każdym urządzeniu z inną rozdzielczością będzie się prezentował trochę inaczej.
-
-Jeśli będziesz korzystać z PerfectPixela, pamiętaj o ustawieniu prawidłowej skali dla podglądu obrazu oraz ustawienia odpowiedniej szerokości dla okna przeglądarki.
-
-Możesz również skorzystać z dodatku [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp), dzięki któremu pobierzesz kolor ze wskazanego miejsca. Wystarczy wyświetlić obraz w przeglądarce Chrome i użyć tego rozszerzenia. 
-
-Kiedy skończysz kodować widok dla telefonu, zajmij się **widokiem tabletowym**. Pamiętaj, aby sprawdzać, czy zmiany wprowadzone do widoku tabletowego nie spowodowały zmian w widoku mobilnym.
-
-Po skończeniu kodowania widoku dla tabletu zajmij się **desktopem**. Ponownie pamiętaj o częstym sprawdzaniu, czy czegoś nie popsułeś w poprzednich wersjach. Im wcześniej się zorientujesz, że coś nie działa, tym łatwiej będzie Ci to naprawić.
-
-## Zasoby
-
-### Fonty
-
-Font wykorzystywany w projekcie to `Poppins`. Znajdziesz go w [Google Fonts](https://fonts.google.com/specimen/Poppins).
-
-### Obrazy
-
-Wszystkie niezbędne obrazy, w tym kształty, znajdziesz w katalogu `./images`. 
-
-### Ikony
-
-Ikony mediów społecznościowych znajdujące się w stopce stwórz przy pomocy [Font Awesome](https://fontawesome.com/).
+**Main features**:
+- Add email and submit the form;
+- See a success message with email after successfully submitting the form;
+- See form validation messages if:
+  The field is left empty
+  The email address is not formatted correctly
 
 
-## Widoki
+## 💡 Technologies
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Nie podaję dokładnych punktów granicznych, abyś sam mógł ocenić, kiedy zrobić przejście.
 
-Zamieszczam tylko informację, dla jakich rozdzielczości był robiony przedstawiony zrzut ekranu:
+## 🛠️ Installation Steps
 
+1. Clone the repository
+
+```bash
+ git clone 
+https://github.com/Kamil201/project-HTML-CSS-RWD.git
+```
+
+2. Change the working directory
+
+```bash
+cd Newsletter-sign-up-form-with-success-message
+```
+
+3. Open your index.html file in your web browser:
+
+```bash
+google chrome index.html
+```
+
+ ## Views
  - mobile => 600px
  - tablet => 900px
  - desktop => 1200px
@@ -67,43 +53,69 @@ Zamieszczam tylko informację, dla jakich rozdzielczości był robiony przedstaw
 
 ![](./assets/desktop.png)
 
-# Zadanie dodatkowe
+## 🤔 Solutions provided in the project
 
-Najwyższy czas zaprezentować swoje umiejętności znajomym na Facebooku czy Instagramie! Być może właśnie w ten sposób zdobędziesz swoje pierwsze zlecenie – poważnie! Osoby, które Cię znają, są w stanie bardziej zaufać Tobie niż komuś „z ulicy”. Dzięki temu zdobędziesz, tak ważne przy rekrutacji, doświadczenie komercyjne.
+- I used email regex and saved it in a variable:
+```
+ const emailRegex =
+	/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+```
 
-## GitHub Pages
+ &nbsp;
 
-GitHub udostępnia funkcjonalność, która nazywa się [GitHub Pages](https://pages.github.com/). W ten sposób możemy „serwować” naszą stronę całkowicie za darmo na podstawie zawartości naszego repozytorium. Możliwość ta dotyczy jedynie stron statycznych korzystających z HTML-a, CSS-a i JavaScriptu – więc również z Reacta. 
+- Create a function which validate wheter the email is correct or not:
 
-Wystarczy, że przejdziesz do [ustawień (Settings) swojego repozytorium](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) i wybierzesz gałąź (branch), która zawiera pliki strony (pewnie będzie to `master` lub `main`). Po minucie czy dwóch strona powinna być już dostępna.
+```
+const isValidEmail = (email) => {
+	return emailRegex.test(email);
+};
 
-Potrzebujesz szczegółowych instrukcji lub Twoja strona nie działa? Poszukaj wskazówek w moim artykule: [GitHub Pages – podgląd projektu na GitHubie](https://devmentor.pl/b/github-pages-podglad-projektu-na-githubie).
+```
+ &nbsp;
+ 
+- Then create a function submitting the form:
 
-> **Uwaga!** Czasami nawet GitHub ma problemy z własnymi serwerami/usługami i coś może nie działać, jak należy. Wtedy wystarczy sprawdzić „status” na [tej stronie](https://www.githubstatus.com/). Tego typu rozwiązanie jest dość powszechne.
+const formSubmit = (e) => {
+	e.preventDefault();
+	const email = emailEl.value.trim();
 
-## Własna domena
-
-Mile widziana (a już na pewno, gdy znajdziesz klienta) będzie własna domena. Na szczęście GitHub Pages daje możliwość jej podpięcia.
-
-Koszt domeny to zaledwie kilkanaście złotych w pierwszym roku, a jej przedłużenie na kolejny rok to zazwyczaj mniej niż 99 zł (zależnie od końcówki). Taką domenę możesz kupić np. w [seohost.pl](https://seohost.pl/?ref=22965).
-
-> **Uwaga!** Nieuczciwe firmy oferują domeny w bardzo atrakcyjnych cenach za pierwszy rok, ale nadrabiają to kosztem przedłużenia, które musisz wykonać, jeśli chcesz zatrzymać domenę. Przeczytaj dokładnie regulamin, zanim dokonasz zakupu.
-
-Domena to nazwa wskazująca na konkretny serwer, na którym znajdują się pliki naszej strony internetowej. Wskazanie to jest realizowane przez [DNS](https://pl.wikipedia.org/wiki/Domain_Name_System).
-
-Jak przeczytamy w [dokumentacji GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain), możemy użyć [domeny](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) lub [subdomeny](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain) (jeśli kupimy np. domenę devmentor.pl, to jej subdomeną będzie np. rwd.devmentor.pl). Aby to zrobić, musimy dodać odpowiedni rekord w ustawieniach DNS. Sposób wykonania tego zadania zależy od dostawcy domeny i jego panelu administracyjnego. W seohost możesz to zrobić w [taki sposób](https://seohost.pl/pomoc/konfiguracja-rekordow-dns-domeny). Jeśli sobie nie poradzisz, to support (pomoc techniczna) na pewno Ci pomoże. Zawsze byli dla mnie pomocni.
-
-> **Uwaga!** Dokonanie zmian w DNS (propagacja informacji) może trwać nawet 24 h (często jednak strona działa już po paru godzinach), dlatego wygodnie jest to robić wieczorem, aby rano mieć już sprawę załatwioną.
-
-# Prawa autorskie
-
-Wszelkie prawa autorskie oraz pokrewne do szablonu i elementów wchodzacych w jego skład należą do [colorlib.com](https://colorlib.com).
-Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licencją](https://colorlib.com/wp/licence/).
+	if (isValidEmail(email)) {
+		errorMessage.style.visibility = "hidden";
+		confirmationEmailEl.innerText = email;
+		successPopupEl.style.display = "block";
+		newsletterEl.style.display = "none";
+	} else {
+		errorMessage.style.visibility = "visible";
+		newsletterFormEl.classList.add("error");
+		successPopupEl.style.display = "none";
+	}
+};
 
 
+ &nbsp;
 
-&nbsp;
+-During the project I was struggling with the "newsletter" section does change its style after closing the popup on screens with a width less than 450 pixels. The logic that I implemented was to checks the screen width and adjusts the display style accordingly. 
+```
+const closePopup = () => {
+    successPopupEl.style.display = "none"; // Hide the popup
 
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+    if (window.innerWidth >= 450) {
+        newsletterEl.style.display = "flex"; // If wide screen, set the "newsletter" section to flex
+    } else {
+        newsletterEl.style.display = ""; // If narrow screen, remove the display style to revert to default behavior
+    }
+}
+
+window.addEventListener("resize", handleResize);
+```
+ &nbsp;
+
+
+
+## 💭 Conclusions for future projects
+
+I would like to improve form submission with many diffrent form sumbission variants.
+
+## 🙋‍♂️ Feel free to contact me
+e-mail: kamlew555@gmail.com
+
