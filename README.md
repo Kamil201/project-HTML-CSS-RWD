@@ -3,12 +3,16 @@
 My challenge was to build out this responsive layout and get it looking as close to the design as possible. I tested my responcive css skills.   
 
 **Main features**:
-- Add email and submit the form;
-- See a success message with email after successfully submitting the form;
-- See form validation messages if:
-  The field is left empty
-  The email address is not formatted correctly
+ 1. **Flexible Layouts**
 
+   - **Description:** The website adjusts to different screen sizes, ensuring optimal use of space and enhancing content readability.
+  
+## 2. **Mobile Navigation Menu**
+
+   - **Description:** Optimizing navigation on small screens through the use of a hamburger menu or other tailored solutions.
+## 3. **Responsive Images and Multimedia**
+
+   - **Description:** Adapting images and multimedia for different screens to optimize page loading times.
 
 ## 💡 Technologies
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
